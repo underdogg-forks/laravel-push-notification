@@ -8,15 +8,15 @@
             "email": "turbo124@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "4.*",
-        "turbo124/notification-pusher": "1.*"
+        "turbo124/notification-pusher": "3.*"
     },
     "autoload": {
         "psr-0": {
             "Davibennun\\LaravelPushNotification": "src/"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
