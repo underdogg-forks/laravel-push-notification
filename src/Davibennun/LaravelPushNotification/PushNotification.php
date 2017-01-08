@@ -44,6 +44,13 @@ class PushNotification {
         return $instance->newInstanceArgs(func_get_args());
     }
 
+    public function FcmAdapter()
+    {
+      $instance = (new \ReflectionClass('Sly\NotificationPusher\Model\FcmAdapter'));
+        return $instance->newInstanceArgs(func_get_args());
+    }
+
+
     public function Push()
     {
       $instance = (new \ReflectionClass('Sly\NotificationPusher\Model\Push'));
