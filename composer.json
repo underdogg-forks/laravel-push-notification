@@ -8,11 +8,10 @@
             "email": "turbo124@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "5.*",
-        "turbo124/notification-pusher": "3.*"
+        "turbo124/notification-pusher": "dev-master"
     },
     "autoload": {
         "psr-0": {
