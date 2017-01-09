@@ -11,7 +11,7 @@
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "5.*",
-        "turbo124/notification-pusher": "dev-master"
+        "turbo124/notification-pusher": "dev-master@dev"
     },
     "autoload": {
         "psr-0": {
