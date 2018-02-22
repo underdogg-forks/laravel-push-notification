@@ -29,8 +29,7 @@ class LaravelPushNotificationServiceProvider extends ServiceProvider {
      */
     public function register()
     {
-        $this->app['pushNotification'] = $this->app->share(function($app)
-        {
+        $this->app->singleton('pushNotification', function ($app) {
             return new PushNotification();
         });
     }
