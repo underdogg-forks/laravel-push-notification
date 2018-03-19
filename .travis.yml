@@ -1,5 +1,11 @@
 language: php
 
+# whitelist
+branches:
+  only:
+    - master
+    - laravel5
+    
 php: 
   - 5.3
   - 5.4
