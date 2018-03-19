@@ -2,7 +2,7 @@ Laravel Push Notification
 =========
 
 Package to enable sending push notifications to devices
-
+ 
 Installation
 ----
 
