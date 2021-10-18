@@ -11,12 +11,18 @@
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "4.*",
-        "sly/notification-pusher": "2.2.12"
+        "sly/notification-pusher": "dev-laravel6"
     },
     "autoload": {
         "psr-0": {
             "Davibennun\\LaravelPushNotification": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/turbo124/NotificationPusher"
+        }
+    ]
 }
